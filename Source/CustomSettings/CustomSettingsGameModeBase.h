@@ -14,7 +14,7 @@ class CUSTOMSETTINGS_API ACustomSettingsGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
-	
-	
+protected:
+	virtual void StartPlay() override;
 	
 };
